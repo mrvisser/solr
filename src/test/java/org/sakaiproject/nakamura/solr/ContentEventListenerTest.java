@@ -59,7 +59,7 @@ public class ContentEventListenerTest {
   public ContentEventListenerTest() throws IOException, ParserConfigurationException,
       SAXException, ClientPoolException, StorageClientException, AccessDeniedException, ClassNotFoundException {
     MockitoAnnotations.initMocks(this);
-    baseMemoryRepository = new BaseMemoryRepository();
+    baseMemoryRepository = new BaseMemoryRepository(false);
   }
 
   @Test
