@@ -216,6 +216,7 @@
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Export-Package>
 							org.sakaiproject.nakamura.api.solr.*,
+							org.apache.lucene.queryparser.classic,
 							org.apache.solr.client.solrj,
 							org.apache.solr.client.solrj.response,
 							org.apache.solr.client.solrj.util,
